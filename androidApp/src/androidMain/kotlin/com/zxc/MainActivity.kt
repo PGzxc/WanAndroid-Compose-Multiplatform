@@ -1,5 +1,6 @@
 package com.zxc
 
+import App
 import MainView
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -10,7 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            MainView()
+            //MainView()
+            App(
+                darkTheme = false,
+                dynamicColor = true,
+            )
         }
     }
 }

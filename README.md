@@ -42,3 +42,23 @@ iosApp/Configuration/Config.xcconfig配置以下信息
 * packageName：应用名称
 * packageVersion：版本
 
+## 三 版本
+
+### v1.0
+
+* 基于模版[compose-multiplatform-template](https://github.com/JetBrains/compose-multiplatform-template#readme)创建项目
+
+### v2.0
+
+添加依赖：
+
+* compose.materialIconsExtended：Icon扩展
+* compose.animation：动画
+* voyager-navigator：voyager库
+* voyager-transitions：voyager库
+
+内容修改：
+
+* desktopApp，通过Window.title修改标题显示
+* 主题设置
+* 项目框架搭建(首页、导航、项目、消息、我的)
