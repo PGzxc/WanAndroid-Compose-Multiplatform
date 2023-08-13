@@ -5,6 +5,6 @@ actual fun getPlatformName(): String = "Android"
 //@Composable fun MainView() = App()
 
 @Composable fun MainView() = App(
-    darkTheme = true,
-    dynamicColor = false,
+    darkTheme = false,
+    dynamicColor = true,
 )

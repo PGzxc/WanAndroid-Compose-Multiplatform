@@ -62,3 +62,42 @@ iosApp/Configuration/Config.xcconfig配置以下信息
 * desktopApp，通过Window.title修改标题显示
 * 主题设置
 * 项目框架搭建(首页、导航、项目、消息、我的)
+
+### v3.0
+
+#### 依赖
+
+添加依赖-commonMain：
+
+* kamel-image：网络图片
+* ktor-client-core：ktor网络请求
+* ktor-server-auto-head-response：ktor网络请求
+* ktor-client-logging：ktor日志打印
+* ktor-serialization-kotlinx-json：ktor序列化
+* ktor-client-content-negotiation：ktor序列化/反序列化特定格式的内容
+* voyager-navigator：voyager导航
+* voyager-transitions：voyager专场
+* xxfast:kstore-file：kstore文件
+* kstore：kstore数据保存
+
+添加依赖-androidMain：
+
+* ktor-client-android：ktor网络安卓端
+* accompanist-systemuicontroller：systemuicontroller导航
+
+添加依赖-iosMain：
+
+* ktor-client-darwin：ktor网络ios端
+
+添加依赖-desktopApp
+
+* appdirs：使用kstore-file时，需要用到
+
+#### UI界面
+
+* 首页
+* 导航
+* 项目
+* 消息
+* 我的
+* 消息

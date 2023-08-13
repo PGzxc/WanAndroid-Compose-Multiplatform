@@ -9,5 +9,6 @@ object NaviMainScreen:Screen {
     @Composable
     override fun Content() {
         MainScreen(modifier = Modifier.fillMaxSize())
+        //MainScreen.Content()
     }
 }

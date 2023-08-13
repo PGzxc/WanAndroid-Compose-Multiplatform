@@ -18,26 +18,35 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import ui.screen.MainScreen
+import cafe.adriel.voyager.core.screen.Screen
+import ui.screen.HomeScreen
 import ui.screen.MessageScreen
 import ui.screen.MineScreen
 import ui.screen.NavigatorScreen
 import ui.screen.ProjectScreen
 
+
+object MainScreen : Screen {
+    @Composable
+    override fun Content() {
+
+
+    }
+}
+
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-
     var selectedItem by remember { mutableStateOf(0) }
     val items = listOf("首页", "导航", "项目", "消息", "我的")
 
     Column {
         Box(modifier = Modifier.weight(1f)) {
             when (selectedItem) {
-                0 -> MainScreen()
+                0 -> HomeScreen()
                 1 -> NavigatorScreen()
                 2 -> ProjectScreen()
                 3 -> MessageScreen()
-                4 -> MineScreen()
+                4 -> MineScreen.Content()
             }
         }
         NavigationBar {
@@ -61,6 +70,4 @@ fun MainScreen(modifier: Modifier = Modifier) {
             }
         }
     }
-
-
 }

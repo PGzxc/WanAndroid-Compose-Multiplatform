@@ -6,9 +6,11 @@ include(":desktopApp")
 
 pluginManagement {
     repositories {
-        gradlePluginPortal()
-        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
         google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+
     }
 
     plugins {
@@ -22,8 +24,10 @@ pluginManagement {
 
         id("com.android.application").version(agpVersion)
         id("com.android.library").version(agpVersion)
-
         id("org.jetbrains.compose").version(composeVersion)
+
+        //id("io.ktor.plugin") version("2.3.3")
+        id("app.cash.sqldelight") version "2.0.0" //数据库
     }
 }
 
@@ -32,5 +36,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+
     }
 }
