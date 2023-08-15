@@ -1,17 +1,35 @@
 # WanAndroid-Compose-Multiplatform
 
-## 一 开发环境
+## 一 项目预览
+
+
+Android截图
+
+| ![][multi-az-waz-1] | ![][multi-az-waz-2] | ![][multi-az-waz-3] | ![][multi-az-waz-4] |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+| ![][multi-az-waz-5] | ![][multi-az-waz-6] | ![][multi-az-waz-7] | ![][multi-az-waz-8] |
+| ![][multi-az-waz-9] |                     |                     |                     |
+
+IOS截图
+
+| ![][multi-ios-waz-1] | ![][multi-ios-waz-2] | ![][multi-ios-waz-3] | ![][multi-ios-waz-4] |
+| -------------------- | -------------------- | -------------------- | -------------------- |
+| ![][multi-ios-waz-5] | ![][multi-ios-waz-6] | ![][multi-ios-waz-7] | ![][multi-ios-waz-8] |
+| ![][multi-ios-waz-9] |                      |                      |                      |
+
+## 二 开发环境
+
 * 软件系统：MacOS 13.5
 * 开发工具：Android Studio Giraffe|2022.3.1
 * JRE：18.0.1
 
-## 二 项目创建(基于模版)
+## 三 项目创建(基于模版)
 
-### 2.1 模版
+### 3.1 模版
 
 * [compose-multiplatform-template](https://github.com/JetBrains/compose-multiplatform-template#readme)
 
-### 2.2 模版修改
+### 3.2 模版修改
 
 #### 项目名称(settings.gradles.kts)
 
@@ -42,7 +60,7 @@ iosApp/Configuration/Config.xcconfig配置以下信息
 * packageName：应用名称
 * packageVersion：版本
 
-## 三 版本
+## 四 版本
 
 ### v1.0
 
@@ -101,3 +119,24 @@ iosApp/Configuration/Config.xcconfig配置以下信息
 * 消息
 * 我的
 * 消息
+
+<!--az-->
+[multi-az-waz-1]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-home-1.png
+[multi-az-waz-2]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-navigator-2.png
+[multi-az-waz-3]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-project-3.png
+[multi-az-waz-4]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-msg-4.png
+[multi-az-waz-5]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-msg-5.png
+[multi-az-waz-6]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-me-6.png
+[multi-az-waz-7]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-me-7.png
+[multi-az-waz-8]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-login-8.png
+[multi-az-waz-9]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-az-waz-register-9.png
+<!--ios-->
+[multi-ios-waz-1]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-home-1.png
+[multi-ios-waz-2]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-navigator-2.png
+[multi-ios-waz-3]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-project-3.png
+[multi-ios-waz-4]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-msg-4.png
+[multi-ios-waz-5]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-msg-5.png
+[multi-ios-waz-6]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-me-6.png
+[multi-ios-waz-7]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-me-7.png
+[multi-ios-waz-8]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-login-8.png
+[multi-ios-waz-9]:https://cdn.staticaly.com/gh/PGzxc/CDN/master/blog-resume/multiplatform-ios-waz-register-9.png
